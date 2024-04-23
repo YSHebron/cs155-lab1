@@ -11,3 +11,6 @@ ABC$ABC
 abc123
 123abc
 "abc"
+1MOD2
+"1MOD2"
+"1$$2$$3
