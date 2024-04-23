@@ -11,19 +11,19 @@
 
 ```sh
 flex le1-202003090.flex
-gcc lex.yy.c -lfl -o le1-lexer.out
+gcc lex.yy.c -lfl -o le1-202003090.out
 ```
 
 Alternatively, you may simply run `./compile.sh`. This runs `compile.sh` which contains the commands provided above.
 
-Either approach will produce the executable `le1-lexer.out`. This is the lexer's binary implementation, and it may be ran as follows:
+Either approach will produce the executable `le1-202003090.out`. This is the lexer's binary implementation, and it may be ran as follows:
 
 ```sh
 # Run without an input file, takes input from STDIN
-./le1-lexer.out
+./le1-202003090.out
 
 # Run with an input file, tokenizing until <<EOF>> or until a lexical error is caught
-./le1-lexer.out <input_file>
+./le1-202003090.out <input_file>
 ```
 
 ## Description
